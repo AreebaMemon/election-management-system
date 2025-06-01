@@ -38,14 +38,14 @@ A comprehensive web-based application for managing elections, candidates, and vo
 ## 🧰 Installation
 
 ### 1️⃣ Prerequisites
-- XAMPP 
+- XAMPP  
 - PHP 7.4 or higher  
 - MySQL 5.7 or higher  
 - Web browser (Chrome, Firefox, Safari)  
 
 ### 2️⃣ Setup
 
-bash
+```bash
 # Clone the repository
 git clone [repository-url]
 
@@ -57,16 +57,14 @@ git clone [repository-url]
 # - Create a new database named 'vote'
 # - Import the voting_system.sql file
 
+3️⃣ Configuration
+Update database credentials in config.php
 
-### 3️⃣ Configuration
-- Update database credentials in config.php  
-- Set proper timezone in PHP configuration  
-- Ensure correct file permissions  
+Set proper timezone in PHP configuration
 
----
+Ensure correct file permissions
 
-## 📁 Project Structure
-
+📁 Project Structure
 ├── admin/
 │   ├── admin_dashboard.php
 │   ├── manage_elections.php
@@ -93,31 +91,37 @@ git clone [repository-url]
 └── logout.php
 
 
-## 🚀 Usage
+🚀 Usage
+🔑 Admin Access
+Login with admin credentials
 
-### 🔑 Admin Access
-- Login with admin credentials  
-- Manage elections, candidates, and voters  
-- View election results  
+Manage elections, candidates, and voters
 
-### 🙋‍♂️ Voter Access
-- Register as a voter  
-- Login to view active elections  
-- Cast votes in active elections  
+View election results
 
----
+🙋‍♂️ Voter Access
+Register as a voter
 
-## 🔐 Security Features
-- Password hashing  
-- Session-based authentication  
-- Input validation  
-- SQL injection prevention  
-- XSS protection  
+Login to view active elections
 
----
+Cast votes in active elections
 
-## 📱 Responsive Design
-- Mobile-friendly interface  
-- Desktop optimized  
-- Responsive tables and forms  
-- Consistent styling across devices   ya README ha meri
+🔐 Security Features
+Password hashing
+
+Session-based authentication
+
+Input validation
+
+SQL injection prevention
+
+XSS protection
+
+📱 Responsive Design
+Mobile-friendly interface
+
+Desktop optimized
+
+Responsive tables and forms
+
+Consistent styling across devices
