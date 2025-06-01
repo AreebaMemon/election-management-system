@@ -110,15 +110,6 @@ git clone [repository-url]
 
 ---
 
-## 🔐 Security Features
-- Password hashing  
-- Session-based authentication  
-- Input validation  
-- SQL injection prevention  
-- XSS protection  
-
----
-
 ## 📱 Responsive Design
 - Mobile-friendly interface  
 - Desktop optimized  
