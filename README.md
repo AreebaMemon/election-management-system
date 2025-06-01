@@ -115,3 +115,8 @@ git clone [repository-url]
 - Desktop optimized  
 - Responsive tables and forms  
 - Consistent styling across devices  
+
+🎥 **Project Demo**
+
+Watch the live demo video on LinkedIn:  
+👉 [Click here to watch on LinkedIn](https://www.linkedin.com/posts/areebamemon_html-css-javascript-activity-7334837182852919299-JIxl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADnaLtIBWm93ZxaE556cUjF5GnYuvFxZwDs)
