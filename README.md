@@ -56,15 +56,18 @@ git clone [repository-url]
 # - Open phpMyAdmin
 # - Create a new database named 'vote'
 # - Import the voting_system.sql file
+```
 
-3️⃣ Configuration
-Update database credentials in config.php
+### 3️⃣ Configuration
+- Update database credentials in `config.php`  
+- Set proper timezone in PHP configuration  
+- Ensure correct file permissions  
 
-Set proper timezone in PHP configuration
+---
 
-Ensure correct file permissions
+## 📁 Project Structure
 
-📁 Project Structure
+```
 ├── admin/
 │   ├── admin_dashboard.php
 │   ├── manage_elections.php
@@ -84,44 +87,40 @@ Ensure correct file permissions
 │   ├── view_results.php
 │   └── header.php
 │
-├── config.php
-├── combined.css
-├── index.php
-├── register.php
-└── logout.php
+├── config.php  
+├── combined.css  
+├── index.php  
+├── register.php  
+└── logout.php  
+```
 
+---
 
-🚀 Usage
-🔑 Admin Access
-Login with admin credentials
+## 🚀 Usage
 
-Manage elections, candidates, and voters
+### 🔑 Admin Access
+- Login with admin credentials  
+- Manage elections, candidates, and voters  
+- View election results  
 
-View election results
+### 🙋‍♂️ Voter Access
+- Register as a voter  
+- Login to view active elections  
+- Cast votes in active elections  
 
-🙋‍♂️ Voter Access
-Register as a voter
+---
 
-Login to view active elections
+## 🔐 Security Features
+- Password hashing  
+- Session-based authentication  
+- Input validation  
+- SQL injection prevention  
+- XSS protection  
 
-Cast votes in active elections
+---
 
-🔐 Security Features
-Password hashing
-
-Session-based authentication
-
-Input validation
-
-SQL injection prevention
-
-XSS protection
-
-📱 Responsive Design
-Mobile-friendly interface
-
-Desktop optimized
-
-Responsive tables and forms
-
-Consistent styling across devices
+## 📱 Responsive Design
+- Mobile-friendly interface  
+- Desktop optimized  
+- Responsive tables and forms  
+- Consistent styling across devices  
